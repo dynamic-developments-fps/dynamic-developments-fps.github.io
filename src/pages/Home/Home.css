@@ -1,0 +1,11 @@
+.dynamic-text-underline:hover {
+	text-decoration: underline;
+}
+
+.fps-cursor:hover {
+    cursor: url("/fps-cursor.svg") 16 16, url("/fps-cursor.png") 16 16, crosshair;
+}
+
+.devel-cursor:hover {
+    cursor: progress;
+}

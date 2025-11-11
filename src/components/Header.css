@@ -1,0 +1,30 @@
+.active-nav {
+	color: greenyellow;
+}
+
+.link-nav {
+	margin-right: 12px;
+	text-decoration: none;
+    padding: 0;
+}
+
+.link-nav:hover {
+	color: yellow;
+    background-color: #ac00ac;
+    height: auto;
+}
+
+nav {
+	background-color: purple;
+	font-size: 32px;
+    align-content: center;
+    padding: 0;
+	display: flex;
+}
+
+.right {
+	margin-left: auto;
+	a {
+		padding-left: 12px;
+	}
+}

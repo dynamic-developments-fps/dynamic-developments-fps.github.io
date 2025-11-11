@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3">
+      <path
+         style="display:none;fill:#1a1a1a;stroke-width:0.929931"
+         id="path3"
+         d="M 131.70126,67.550575 A 64.150681,64.150681 0 0 1 68.011423,131.6996 64.150681,64.150681 0 0 1 3.406516,68.472248 64.150681,64.150681 0 0 1 66.168126,3.4147924 64.150681,64.150681 0 0 1 131.67477,65.70742 Z" />
+      <path
+         id="lpe_path-effect3"
+         style="fill:#1a1a1a;stroke-width:0.929931"
+         class="powerclip"
+         d="M -5,-5 H 140.10115 V 140.10115 H -5 Z m 136.70126,72.550575 -0.0265,-1.843155 A 64.150681,64.150681 0 0 0 66.168126,3.4147924 64.150681,64.150681 0 0 0 3.406516,68.472248 64.150681,64.150681 0 0 0 68.011423,131.6996 64.150681,64.150681 0 0 0 131.70126,67.550575 Z" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1"
+     style="fill:#ff0000">
+    <path
+       style="fill:#ff0000;stroke-width:0.979216"
+       id="path1"
+       d="M 135.10115,67.550575 A 67.550575,67.550575 0 0 1 68.035848,135.09941 67.550575,67.550575 0 0 1 0.00697224,68.521095 67.550575,67.550575 0 0 1 66.094858,0.0156872 67.550575,67.550575 0 0 1 135.07326,65.609736 Z"
+       clip-path="url(#clipPath3)"
+       transform="matrix(0.76423842,0,0,0.76423842,15.92583,15.92583)" />
+    <rect
+       style="fill:#ff0000;stroke-width:0.162952"
+       id="rect4"
+       width="41.872406"
+       height="3.9367216"
+       x="-135.45125"
+       y="63.220955"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#ff0000;stroke-width:0.1632"
+       id="rect5"
+       width="42"
+       height="3.9367216"
+       x="-2.4836348e-07"
+       y="63.220955" />
+    <rect
+       style="fill:#ff0000;stroke-width:0.1632"
+       id="rect6"
+       width="42"
+       height="3.9367216"
+       x="93.765564"
+       y="64.061211" />
+    <rect
+       style="fill:#ff0000;stroke-width:0.1632"
+       id="rect7"
+       width="42"
+       height="3.9367216"
+       x="-42.000008"
+       y="63.220951"
+       transform="rotate(-90)" />
+  </g>
+</svg>
