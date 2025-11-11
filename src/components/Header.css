@@ -5,20 +5,20 @@
 .link-nav {
 	margin-right: 12px;
 	text-decoration: none;
-    padding: 0;
+	padding: 0;
 }
 
 .link-nav:hover {
 	color: yellow;
-    background-color: #ac00ac;
-    height: auto;
+	background-color: #ac00ac;
+	height: auto;
 }
 
 nav {
-	background-color: purple;
+	background-color: #550055;
 	font-size: 32px;
-    align-content: center;
-    padding: 0;
+	align-content: center;
+	padding: 0;
 	display: flex;
 }
 
@@ -26,5 +26,14 @@ nav {
 	margin-left: auto;
 	a {
 		padding-left: 12px;
+		paint-order: stroke fill;
 	}
+}
+
+.stroke {
+	-webkit-text-stroke: black 4px;
+}
+
+.stroke-lite {
+	-webkit-text-stroke: black 1px;
 }
