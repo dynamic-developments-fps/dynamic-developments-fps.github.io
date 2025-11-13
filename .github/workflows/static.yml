@@ -4,7 +4,7 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ['main']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -15,7 +15,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: false
 
 jobs:
@@ -31,10 +31,10 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           version: 10
-      - name: "Install dependencies"
-        run: "pnpm install"
+      - name: 'Install dependencies'
+        run: 'pnpm install'
       - name: Build
-        run: "pnpm build"
+        run: 'pnpm build'
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
