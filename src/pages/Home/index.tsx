@@ -10,6 +10,13 @@ export function Home() {
 				<span className='fps-cursor'>FPS</span>
 			</h1>
 			<IconExpand />
+			<h1>Upcoming games:</h1>
+			<ul>
+				<li>The Last Route</li>
+				<li>Steel and Scales</li>
+				<li>Steel and Scales - Boxy's Version</li>
+				<li>Battles in Time: Eras Collide</li>
+			</ul>
 		</>
 	);
 }

@@ -12,11 +12,6 @@ export function Header() {
 					className={`link-nav stroke-lite ${url == '/' && 'active-nav'}`}>
 					Home
 				</a>
-				<a
-					href='/404'
-					className={`link-nav stroke-lite ${url == '/404' && 'active-nav'}`}>
-					404
-				</a>
 				<span className='right'>
 					<a
 						href='https://www.youtube.com/@DynamicDevelopmentsFPS'

@@ -7,6 +7,10 @@ export default defineConfig({
 	resolve: { alias: { '@/': '/src/' } },
 	build: {
 		rollupOptions: {
+			input: {
+				"index": "index.html",
+				"404": "404.html"
+			},
 			output: {
 				manualChunks: {
 					preact: ['preact', 'preact-iso', 'preact/hooks', 'preact/compat'],

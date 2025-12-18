@@ -16,20 +16,10 @@ export default function IconExpand() {
 					alt='Icon'
 					width={width}
 					height={400}
-					onMouseEnter={() => {
-						setIcon('/banner.png');
-						setWidth(720);
-					}}
-					onMouseLeave={() => {
-						setIcon('/icon.png');
-						setWidth(400);
-					}}
 					onPointerDown={() => {
 						if (rolling) return;
 						setRolling(true);
 
-						// When the pointer is released (even if released outside),
-						// wait one animation duration so the roll doesn't stop immediately.
 						const onPointerUp = () => {
 							window.removeEventListener('pointerup', onPointerUp);
 							window.removeEventListener('pointercancel', onPointerUp);
