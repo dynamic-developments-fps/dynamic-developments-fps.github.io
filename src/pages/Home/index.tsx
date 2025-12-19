@@ -12,10 +12,11 @@ export function Home() {
 			<IconExpand />
 			<h1>Upcoming games:</h1>
 			<ul>
-				<li>The Last Route</li>
+				<li>Terminality</li>
 				<li>Steel and Scales</li>
-				<li>Steel and Scales - Boxy's Version</li>
 				<li>Battles in Time: Eras Collide</li>
+				<li>Steel and Scales - Boxy's Version</li>
+				<li>The Last Route</li>
 			</ul>
 		</>
 	);
